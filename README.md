@@ -47,3 +47,18 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Image Samples
+### Initial and selector
+
+<div style="display: flex;">
+<img src="https://github.com/italonabuco/currency-converter-frontend/blob/master/src/screenshots/ss_1.png" height="500">
+<img src="https://github.com/italonabuco/currency-converter-frontend/blob/master/src/screenshots/ss_2.png" height="500">
+</div>
+
+### Convertions History
+
+<div style="display: flex;">
+<img src="https://github.com/italonabuco/currency-converter-frontend/blob/master/src/screenshots/ss_3.png" height="500">
+<img src="https://github.com/italonabuco/currency-converter-frontend/blob/master/src/screenshots/ss_4.png" height="500">
+</div>
