@@ -17,7 +17,7 @@ npm install
 
 ## Webservice
 
-This project uses the [Currency Converter Backend](https://github.com/italonabuco/currency-converter-backend) to performe convertions.\
+This project uses the [Currency Converter Backend](https://github.com/italonabuco/currency-converter-backend) to performe convertions.
 
 Make sure to have this REST API running on your local to avoid any trouble. Please visit its webpage and follow its instructions to start the server.
 
