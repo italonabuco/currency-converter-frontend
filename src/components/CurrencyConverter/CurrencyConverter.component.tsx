@@ -62,7 +62,7 @@ const CurrencyConverter: React.FC<I_CurrencyConverterProps> = ({
         };
     };
 
-    const fetchConvertionResponse = (data: T_UpdatedData) => {
+    const fetchConversionResponse = (data: T_UpdatedData) => {
         clearTimeout(timer);
         const timeout = setTimeout(() => {
             const getValueToInput = (response: number) => {
@@ -129,12 +129,12 @@ const CurrencyConverter: React.FC<I_CurrencyConverterProps> = ({
         switch (field) {
             case 'from':
                 setFromCode(code);
-                return fetchConvertionResponse(
+                return fetchConversionResponse(
                     getUpdatedValues('fromCode', 'from', code)
                 );
             case 'to':
                 setToCode(code);
-                return fetchConvertionResponse(
+                return fetchConversionResponse(
                     getUpdatedValues('toCode', 'from', code)
                 );
             default:
@@ -147,12 +147,12 @@ const CurrencyConverter: React.FC<I_CurrencyConverterProps> = ({
         switch (field) {
             case 'from':
                 setFromValue(formattedValue);
-                return fetchConvertionResponse(
+                return fetchConversionResponse(
                     getUpdatedValues('fromValue', field, formattedValue)
                 );
             case 'to':
                 setToValue(formattedValue);
-                return fetchConvertionResponse(
+                return fetchConversionResponse(
                     getUpdatedValues('toValue', field, formattedValue)
                 );
             default:

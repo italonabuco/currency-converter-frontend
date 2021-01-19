@@ -53,7 +53,7 @@ Your app is ready to be deployed!
 <img src="https://github.com/italonabuco/currency-converter-frontend/blob/master/src/screenshots/ss_2.png" height="500">
 </div>
 
-### Convertions History
+### Conversions History
 
 <div style="display: flex;">
 <img src="https://github.com/italonabuco/currency-converter-frontend/blob/master/src/screenshots/ss_3.png" height="500">
