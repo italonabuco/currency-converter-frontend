@@ -32,7 +32,11 @@ const HistoryListItemWrapper = styled(Paper)`
 
 const HistoryListItem: React.FC<T_HistoryItem> = ({ date, to, from }) => {
     return (
-        <HistoryListItemWrapper className="history-list-item" elevation={3}>
+        <HistoryListItemWrapper
+            className="history-list-item"
+            elevation={3}
+            data-testid="history-list-item"
+        >
             <Box className="history-list-item__currency-info-container">
                 <CurrencyInfo {...from} />
                 <SwapHorizontalCircleTwoToneIcon className="history-list-item__currency-info-container__icon" />

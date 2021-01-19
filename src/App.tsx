@@ -37,7 +37,6 @@ const App: React.FC = function () {
 
     useEffect(() => {
         ConverterServices.getCodesList().then((res) => {
-            console.log(res);
             setCodes(res.data.codes);
             setIsSettingUp(false);
         });

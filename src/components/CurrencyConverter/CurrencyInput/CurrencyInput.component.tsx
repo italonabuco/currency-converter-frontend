@@ -80,22 +80,33 @@ const CurrencyInput: React.FC<I_CurrencyInputProps> = ({
     onChange,
 }) => {
     return (
-        <CurrencyInputWrapper className="currency-input">
+        <CurrencyInputWrapper
+            className="currency-input"
+            data-testid="currency-input"
+        >
             <Typography className="currency-input__label">{label}</Typography>
             <div className="currency-input__container">
                 <InputBase
                     value={value}
                     className="currency-input__container__field"
                     onChange={(e) => onChange(e.target.value)}
+                    inputProps={{
+                        'data-testid': 'currency-input-base',
+                    }}
                 />
                 <Select
                     value={selected}
                     className="currency-input__container__select"
                     disableUnderline
                     onChange={(e) => onSelect('' + e.target.value)}
+                    data-testid="currency-input-select"
                 >
                     {codes.map((code) => (
-                        <MenuItem value={code} key={code}>
+                        <MenuItem
+                            value={code}
+                            key={code}
+                            data-testid="currency-input-item"
+                        >
                             <SelectOption label={code} />
                         </MenuItem>
                     ))}

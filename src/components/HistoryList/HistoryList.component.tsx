@@ -60,6 +60,7 @@ const HistoryList: React.FC<I_HistoryListProps> = ({
                     variant="contained"
                     size="small"
                     disabled={items.length === 0}
+                    data-testid="clear-button"
                 >
                     Clear
                 </Button>
