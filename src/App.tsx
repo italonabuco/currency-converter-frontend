@@ -9,6 +9,7 @@ import ConverterServices from './services/converter.services';
 import Spinner from './components/Spinner/Spinner';
 import { addToHistory, clearHistory, getHistory } from './helpers/utils';
 import { T_HistoryItem } from './types';
+// Testing commit account
 
 const AppContainer = styled(Container)`
     &.app-container {
