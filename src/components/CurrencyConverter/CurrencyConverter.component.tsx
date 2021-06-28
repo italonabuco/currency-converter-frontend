@@ -16,8 +16,8 @@ const CurrencyConverterWrapper = styled(Paper)`
             display: flex;
             flex-direction: column;
             padding: 16px 24px;
-            justifycontent: space-between;
-            alignitems: center;
+            justify-content: space-between;
+            align-items: center;
         }
     }
 `;
